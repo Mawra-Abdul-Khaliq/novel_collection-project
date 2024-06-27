@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right , rgb(2, 57, 85), rgb(17, 187, 218));
+}
+.image-container{
+    text-align: center;
+    position: relative;
+}
+img#fullscreen-image{
+    max-width: 350px;
+    max-height: 350px;
+    cursor: pointer;
+}
+.options{
+  
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+button#open-pdf{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color:red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#ratings{
+    color: #fff;
+    margin: 10px 0;
+}
+
+.star{
+    font-size: 24px;
+    color: #FFD700;
+}
+#writer-name{
+    margin: 10px 0;
+}
+.Summary{
+    color: black;
+}
